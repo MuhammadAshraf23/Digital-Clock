@@ -1,0 +1,23 @@
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background-color:black
+}
+
+#main {
+  border: 1px solid green;
+  background-color: rgb(222, 250, 241);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#time {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
